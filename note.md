@@ -19,3 +19,14 @@ https://bit.ly/jsdevpackagejson
 * ngrok
 * Surge
 * now
+
+## Automation
+* Grunt
+* Gulp
+* NPM scripts
+###### Why npm Scripts?
+* use tools directly
+* no need for separate plugins
+* better docs
+* easy to learn
+* simple

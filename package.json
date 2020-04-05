@@ -4,7 +4,9 @@
   "description": "JavaScript development environment setup",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prestart": "node buildScripts/startMessage.js",
+    "start": "npm-run-all --parallel open:src",
+    "open:src": "node buildScripts/srcServer.js"
   },
   "repository": {
     "type": "git",
@@ -35,12 +37,11 @@
     "extract-text-webpack-plugin": "^3.0.0",
     "jsdom": "^11.2.0",
     "json-schema-faker": "^0.5.0-rc11",
-    "json-server": "^0.12.0",
+    "json-server": "^0.16.1",
     "localtunnel": "^1.8.3",
     "mocha": "^3.5.3",
     "nock": "^9.0.20",
     "npm-run-all": "^4.1.1",
-    "nsp": "^2.8.0",
     "numeral": "^2.0.6",
     "open": "^0.0.5",
     "rimraf": "^2.6.2",
