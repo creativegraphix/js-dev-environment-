@@ -11,4 +11,11 @@ Use `.editorconfig` in your project by visiting www.editorconfig.org
 * npm 
 * JSPM
 
-bit.ly/jsdevpackagejson
+https://bit.ly/jsdevpackagejson
+
+## Development Web Server
+* Browsersync
+* localtunnel
+* ngrok
+* Surge
+* now
