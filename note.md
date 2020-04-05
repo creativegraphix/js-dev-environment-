@@ -30,3 +30,8 @@ https://bit.ly/jsdevpackagejson
 * better docs
 * easy to learn
 * simple
+
+## Tranpiling
+* Babel
+* TypeScript
+* Elm

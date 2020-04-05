@@ -4,9 +4,9 @@
   "description": "JavaScript development environment setup",
   "main": "app.js",
   "scripts": {
-    "prestart": "node buildScripts/startMessage.js",
+    "prestart": "babel-node buildScripts/startMessage.js",
     "start": "npm-run-all --parallel open:src",
-    "open:src": "node buildScripts/srcServer.js"
+    "open:src": "babel-node buildScripts/srcServer.js"
   },
   "repository": {
     "type": "git",
