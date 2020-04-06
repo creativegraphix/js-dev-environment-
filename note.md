@@ -41,3 +41,17 @@ https://bit.ly/jsdevpackagejson
 * webpack
 * rollup
 * jspm
+
+## What Does a CI Server Do?
+* Run automated build
+* Run your tests
+* Check code coverage
+* Automate deployment
+
+1. Examples CI Server
+* Travis 
+* Appveyor
+* Jenkins
+* cicleci
+* semaphore
+* snap
