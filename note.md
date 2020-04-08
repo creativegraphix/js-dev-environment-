@@ -55,3 +55,36 @@ https://bit.ly/jsdevpackagejson
 * cicleci
 * semaphore
 * snap
+
+## HTTP Call Approaches
+1. Node
+* http
+* request
+
+2. Browser
+* xMLHttpRequest
+* jQuery
+* Fetch
+
+3. Node and Browser
+* isomorphic-fetch
+* xhr
+* SuperAgent
+* Axios
+
+###### Why Centralize API Calls
+* configure all calls
+* Handle preloader logic
+* Handle errors
+* Single seam for mocking
+
+###### Our Plan for Mocking HTTP
+1. Declare our schema
+    * JSON Schema Faker
+2. Generate Random Data
+    * faker.js
+    * chance.js
+    * randexp.js
+
+3. Serve Data via API
+    * JSON Server
