@@ -91,3 +91,23 @@ https://bit.ly/jsdevpackagejson
 3. Serve Data via API
     * JSON Server
 
+
+## Why Include a Demo App?
+Because we learn by example.
+* It help directory structure and file naming
+* Framework usage
+* Testing
+* Mock Api
+* Automaated deployment
+* Interactive example of working with starter
+
+
+## Production Build
+#### Minification
+* Minification is about speeding page load and limit bandwidt
+* Shortens variable and function names
+* Removes comments 
+* Removes whitespace and new lines
+
+
+
